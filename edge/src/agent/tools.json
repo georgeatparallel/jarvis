@@ -16,7 +16,7 @@
  },
  {
   "name": "write_artifact",
-  "description": "Save a deliverable the user keeps. Shown in a side panel; auto-versioned.\n\nPass `content` for a markdown document (report, draft, resume), or\n`file_path` for an already-written audio/video/image file. Not for scratch\nwork — use write_file for that.\n\nArgs:\n    title: Short human-readable title.\n    content: Markdown body. Mutually exclusive with file_path.\n    file_path: Path to an existing file to register instead of content.\n    artifact_id: Update this artifact in place; omit to create a new one.\n\nReturns the artifact id and title as JSON.",
+  "description": "Save a deliverable the user keeps. Shown in a side panel; auto-versioned.\n\nPass `content` for a markdown document (report, draft, resume), or\n`file_path` for an already-written audio/video/image file. Not for scratch\nwork — keep that in an ordinary file.\n\nArgs:\n    title: Short human-readable title.\n    content: Markdown body. Mutually exclusive with file_path.\n    file_path: Path to an existing file to register instead of content.\n    artifact_id: Update this artifact in place; omit to create a new one.\n\nReturns the artifact id and title as JSON.",
   "parameters": {
    "properties": {
     "title": {
